@@ -1,0 +1,9 @@
+body {
+    background: #5f7382;
+    background: radial-gradient(circle, rgba(95, 115, 130, 1) 0%, rgba(255, 0, 0, 1) 100%, rgba(153, 142, 104, 1) 100%);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
