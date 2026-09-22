@@ -1,9 +1,78 @@
+
 body {
-    background: #5f7382;
-    background: radial-gradient(circle, rgba(95, 115, 130, 1) 0%, rgba(255, 0, 0, 1) 100%, rgba(153, 142, 104, 1) 100%);
-    color: #333;
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
     margin: 0;
-    padding: 0;
 }
 
+/* Encabezado */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Contenido principal */
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    line-height: 1.6;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+/* Listas */
+ul {
+    line-height: 1.8;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Sección de tecnologías */
+section {
+    margin-top: 25px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a252f;
+}
